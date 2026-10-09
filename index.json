@@ -153,24 +153,8 @@
     {
       "id": "home-baking",
       "name": "家庭烘焙",
-      "version": 2,
+      "version": 3,
       "requires_subscription": true,
-      "categories": [
-        {
-          "id": "baking",
-          "name": "烘焙原料"
-        },
-        {
-          "id": "baking-flour",
-          "name": "面粉",
-          "parent_id": "baking"
-        },
-        {
-          "id": "baking-wheat-flour",
-          "name": "小麦粉",
-          "parent_id": "baking-flour"
-        }
-      ],
       "entries": [
         {
           "id": "brand-xinliang",
@@ -193,7 +177,6 @@
           "name": "纯享低筋小麦粉",
           "brand_id": "brand-xinliang",
           "ingredient_id": "seed-ingredient-310604136757",
-          "category_id": "baking-wheat-flour",
           "aliases": [
             "新良纯享低筋小麦粉",
             "新良低筋面粉"
@@ -213,7 +196,6 @@
           "name": "柔风吐司粉",
           "brand_id": "brand-wanghou",
           "ingredient_id": "seed-ingredient-68247edb8b56",
-          "category_id": "baking-wheat-flour",
           "aliases": [
             "王后柔风吐司粉",
             "王后吐司粉"
@@ -233,7 +215,6 @@
           "name": "梦力B吐司粉",
           "brand_id": "brand-zhilanya",
           "ingredient_id": "seed-ingredient-68247edb8b56",
-          "category_id": "baking-wheat-flour",
           "aliases": [
             "芝兰雅梦力B吐司粉",
             "梦力B",
