@@ -1,0 +1,249 @@
+{
+  "format_version": 1,
+  "packs": [
+    {
+      "id": "common-brands",
+      "name": "常用厨房品牌",
+      "version": 1,
+      "entries": [
+        {
+          "id": "brand-0",
+          "kind": "brand",
+          "name": "李锦记"
+        },
+        {
+          "id": "brand-1",
+          "kind": "brand",
+          "name": "海天"
+        },
+        {
+          "id": "brand-2",
+          "kind": "brand",
+          "name": "千禾"
+        },
+        {
+          "id": "brand-3",
+          "kind": "brand",
+          "name": "厨邦"
+        },
+        {
+          "id": "brand-4",
+          "kind": "brand",
+          "name": "恒顺"
+        },
+        {
+          "id": "brand-5",
+          "kind": "brand",
+          "name": "太太乐"
+        },
+        {
+          "id": "brand-6",
+          "kind": "brand",
+          "name": "小米"
+        },
+        {
+          "id": "brand-7",
+          "kind": "brand",
+          "name": "美的"
+        },
+        {
+          "id": "brand-8",
+          "kind": "brand",
+          "name": "苏泊尔"
+        },
+        {
+          "id": "brand-9",
+          "kind": "brand",
+          "name": "九阳"
+        },
+        {
+          "id": "brand-10",
+          "kind": "brand",
+          "name": "格兰仕"
+        },
+        {
+          "id": "brand-11",
+          "kind": "brand",
+          "name": "松下"
+        }
+      ]
+    },
+    {
+      "id": "pantry-extension",
+      "name": "常用食材扩展",
+      "version": 1,
+      "entries": [
+        {
+          "id": "ingredient-0",
+          "kind": "ingredient",
+          "name": "莳萝"
+        },
+        {
+          "id": "ingredient-1",
+          "kind": "ingredient",
+          "name": "百里香"
+        },
+        {
+          "id": "ingredient-2",
+          "kind": "ingredient",
+          "name": "迷迭香"
+        },
+        {
+          "id": "ingredient-3",
+          "kind": "ingredient",
+          "name": "罗勒"
+        },
+        {
+          "id": "ingredient-4",
+          "kind": "ingredient",
+          "name": "牛至"
+        },
+        {
+          "id": "ingredient-5",
+          "kind": "ingredient",
+          "name": "鼠尾草"
+        },
+        {
+          "id": "ingredient-6",
+          "kind": "ingredient",
+          "name": "孜然粒"
+        },
+        {
+          "id": "ingredient-7",
+          "kind": "ingredient",
+          "name": "烟熏红椒粉"
+        },
+        {
+          "id": "ingredient-8",
+          "kind": "ingredient",
+          "name": "鹰嘴豆"
+        },
+        {
+          "id": "ingredient-9",
+          "kind": "ingredient",
+          "name": "小扁豆"
+        },
+        {
+          "id": "ingredient-10",
+          "kind": "ingredient",
+          "name": "藜麦"
+        },
+        {
+          "id": "ingredient-11",
+          "kind": "ingredient",
+          "name": "椰奶"
+        },
+        {
+          "id": "ingredient-12",
+          "kind": "ingredient",
+          "name": "鱼露"
+        },
+        {
+          "id": "ingredient-13",
+          "kind": "ingredient",
+          "name": "味噌"
+        },
+        {
+          "id": "ingredient-14",
+          "kind": "ingredient",
+          "name": "昆布"
+        }
+      ]
+    },
+    {
+      "id": "home-baking",
+      "name": "家庭烘焙",
+      "version": 1,
+      "requires_subscription": true,
+      "categories": [
+        {
+          "id": "baking",
+          "name": "烘焙原料"
+        },
+        {
+          "id": "baking-flour",
+          "name": "面粉",
+          "parent_id": "baking"
+        }
+      ],
+      "entries": [
+        {
+          "id": "brand-xinliang",
+          "kind": "brand",
+          "name": "新良"
+        },
+        {
+          "id": "brand-wanghou",
+          "kind": "brand",
+          "name": "王后"
+        },
+        {
+          "id": "brand-zhilanya",
+          "kind": "brand",
+          "name": "芝兰雅"
+        },
+        {
+          "id": "food-xinliang-chunxiang-cake-flour",
+          "kind": "food",
+          "name": "纯享低筋小麦粉",
+          "brand_id": "brand-xinliang",
+          "ingredient_id": "seed-ingredient-310604136757",
+          "category_id": "baking-flour",
+          "aliases": [
+            "新良纯享低筋小麦粉",
+            "新良低筋面粉"
+          ],
+          "nutrition": {
+            "basis_quantity": "100",
+            "basis_unit": "克",
+            "energy": "1481",
+            "energy_unit": "kJ",
+            "state": "as_listed",
+            "source": "产品包装营养成分表标示值；用户（发行方）提供并核对 2026-10-09"
+          }
+        },
+        {
+          "id": "food-wanghou-roufeng-bread-flour",
+          "kind": "food",
+          "name": "柔风吐司粉",
+          "brand_id": "brand-wanghou",
+          "ingredient_id": "seed-ingredient-68247edb8b56",
+          "category_id": "baking-flour",
+          "aliases": [
+            "王后柔风吐司粉",
+            "王后吐司粉"
+          ],
+          "nutrition": {
+            "basis_quantity": "100",
+            "basis_unit": "克",
+            "energy": "1498",
+            "energy_unit": "kJ",
+            "state": "as_listed",
+            "source": "产品包装营养成分表标示值；用户（发行方）提供并核对 2026-10-09"
+          }
+        },
+        {
+          "id": "food-zhilanya-yumemichikara-b-bread-flour",
+          "kind": "food",
+          "name": "梦力B吐司粉",
+          "brand_id": "brand-zhilanya",
+          "ingredient_id": "seed-ingredient-68247edb8b56",
+          "category_id": "baking-flour",
+          "aliases": [
+            "芝兰雅梦力B吐司粉",
+            "梦力B",
+            "夢力B"
+          ],
+          "nutrition": {
+            "basis_quantity": "100",
+            "basis_unit": "克",
+            "energy": "1475",
+            "energy_unit": "kJ",
+            "state": "as_listed",
+            "source": "产品包装营养成分表标示值；用户（发行方）提供并核对 2026-10-09"
+          }
+        }
+      ]
+    }
+  ]
+}
