@@ -1,6 +1,17 @@
-# savorisle-packs-test
+# 味屿资料包
 
-味屿（SavorIsle）资料包测试源。
+味屿（SavorIsle）资料包下载源。全部资源包当前为 V1。
 
-- `index.json`：catalog-packs/index.json 的测试发布副本，当前含 `home-baking`（家庭烘焙）权益包。
-- 应用内「资料源设置」填写：`https://raw.githubusercontent.com/DyMode/savorisle-packs-test/main/index.json`
+| 资源包 | 内容 |
+|---|---|
+| 常用厨房品牌 | 12 个品牌 |
+| 常用食材扩展 | 15 种食材 |
+| 家庭烘焙 | 9 个品牌、1 种食材、26 款产品 |
+| 烘焙模具 | 三能品牌、14 款模具 |
+
+详细产品、型号、营养信息来源见 [内容清单](CONTENTS.md)。未核实的营养项保持空缺，第三方参考记录已注明。
+
+应用内资料源地址：
+`https://raw.githubusercontent.com/DyMode/savorisle-packs-test/main/index.json`
+
+`index.json` 内嵌所有资源包内容。家庭烘焙和烘焙模具沿用权益校验。已有较高版本的资源包需要在支持删除功能的应用版本中删除，再重新下载 V1。
